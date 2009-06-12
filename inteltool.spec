@@ -3,10 +3,10 @@ Summary:	Utility for recognize Intel HW (chipset/CPU) configuration information
 Summary(pl.UTF-8):	Narzędzie do rozpoznawania informacji konfiguracyjnych w sprzęcie Intela (chipset/CPU)
 Name:		inteltool
 Version:	1.0
-Release:	0.%{_svn_rev}_svn.1
+Release:	0.%{_svn_rev}_svn.2
 License:	GPL v2
 Group:		Applications/System
-Source0:	%{name}-%{version}-%{release}.tar.lzma
+Source0:	%{name}-%{version}-0.4190_svn.1.tar.lzma
 # Source0-md5:	5e6c3cece09a60ac0a2373a05167f3d3
 URL:		http://www.coreboot.org/Inteltool
 BuildRequires:	pciutils-devel
