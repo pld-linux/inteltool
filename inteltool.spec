@@ -26,7 +26,7 @@ konfiguracji sprzętowej chipsetu/CPU Intela (zawartość rejestrów,
 MSR-y [potrzebne załadowanie modułu jądra 'msr'] itp.).
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{version}-%{release}
 
 %build
 %{__make} \
